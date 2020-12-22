@@ -1,8 +1,8 @@
 <?php 
 header("Status: 200");
-$body = @file_get_contents('php://input');
-$data = json_decode($body);
-var_dump($data);
+// $body = @file_get_contents('php://input');
+// $data = json_decode($body);
+// var_dump($data);
 ?>
 <!DOCTYPE html>
 <html class="supports-animation supports-columns svg no-touch no-ie no-oldie no-ios supports-backdrop-filter as-mouseuser" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
