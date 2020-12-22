@@ -69,10 +69,6 @@ $preference->auto_return = "approved";
 $preference->external_reference = "developerh69@gmail.com";
 $preference->save();
 
-$body = @file_get_contents('php://input');
-$data = json_decode($body);
-var_dump($data);
-
 ?>
 
 <!DOCTYPE html>
