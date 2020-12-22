@@ -60,12 +60,12 @@ $preference->payment_methods = array(
 );
 
 $preference->back_urls = array(
-  "success" => "http://localhost/mp-ecommerce-php/thankyou.php",
-  "failure" => "http://localhost/mp-ecommerce-php/failure.php",
-  "pending" => "http://localhost/mp-ecommerce-php/pending.php",
+  "success" => "https://devsantposhm-mp-commerce-php.herokuapp.com/thankyou.php",
+  "failure" => "https://devsantposhm-mp-commerce-php.herokuapp.com/failure.php",
+  "pending" => "https://devsantposhm-mp-commerce-php.herokuapp.com/pending.php",
 );
 
-$preference->notificacion_url = "http://localhost/mp-ecommerce-php/webhooks.php";
+$preference->notificacion_url = "https://devsantposhm-mp-commerce-php.herokuapp.com/webhooks.php";
 
 $preference->auto_return = "approved";
 
